@@ -3,7 +3,7 @@ const wordSearch = (letters, word) => {
   let res = false;
 
   // Function to transpose the rows and columns to be able to use .map() and .join()
-  const transpose = function (matrix) {
+  const transpose = function(matrix) {
     let result = [];
     for (let i = 0; i < matrix[0].length; i++) {
       let col = [];
